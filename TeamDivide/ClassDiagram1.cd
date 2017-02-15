@@ -57,7 +57,7 @@
     </TypeIdentifier>
   </Delegate>
   <Delegate Name="TeamDivide.TansportAddPayListener">
-    <Position X="6.75" Y="3.5" Width="1.5" />
+    <Position X="6.75" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>TansportAddPay.cs</FileName>
