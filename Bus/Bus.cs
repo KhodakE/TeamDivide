@@ -12,6 +12,7 @@ namespace Bus
         string Type { get; set; }
         
 
+
         public IPrice Price
         {
             get
