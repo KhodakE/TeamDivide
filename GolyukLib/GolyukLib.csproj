@@ -40,9 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PayStatusPayPal.cs" />
-    <Compile Include="PayStatusPrivat24.cs" />
+    <Compile Include="PaymentSystem\PayStatus\TmpPayStatus.cs" />
+    <Compile Include="Ticket\TicketPrice\EasyTicketPrice.cs" />
+    <Compile Include="PaymentSystem\PayStatus\PayStatusPayPal.cs" />
+    <Compile Include="PaymentSystem\PayStatus\PayStatusPrivat24.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ticket\Ticket.cs" />
+    <Compile Include="Ticket\TicketStatus\EasyTicketStatus.cs" />
+    <Compile Include="Ticket\TicketStatus\EasyTransportTicketInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TeamDivide\TeamDivide.csproj">
@@ -50,6 +55,7 @@
       <Name>TeamDivide</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -27,7 +27,7 @@ namespace GolyukLib
         {
             get
             {
-                return _amount + (_amount * 0.025); //2.5% коммиссия
+                return _amount + (_amount * 0.05); //5% коммиссия
             }
 
             set
